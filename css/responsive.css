@@ -1,0 +1,152 @@
+@media only screen and (max-width: 768px) {
+  .details,
+  .banner,
+  .contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .banner {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 335px;
+  }
+  .banner-1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    /* height: 50%; */
+  }
+  .banner-1 h2,
+  p {
+    padding: 0 30px;
+    font-size: 1.9em;
+  }
+  .banner-1 h2 {
+    line-height: 1.3em;
+  }
+  .banner-2 {
+    padding: 20px 40px 0 50px;
+    width: 100%;
+    height: 90%;
+  }
+  .banner-2 img {
+    width: 70%;
+    height: 100%;
+  }
+  .aside {
+    margin-bottom: 50px;
+    margin-left: 30px;
+    background-color: #ffffff;
+  }
+  .aside ul li {
+    border: 1px solid #2e2d2d;
+  }
+  .contents {
+    margin: 10px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    width: 335px;
+    height: auto;
+    /* text-align: center; */
+  }
+  .content .image {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content .info {
+    padding-bottom: 15px;
+  }
+  .footer {
+    padding-bottom: 25px;
+    width: 335px;
+    height: auto;
+  }
+  .footer h3 {
+    padding-top: 30px;
+  }
+  hr {
+    margin: 20px;
+  }
+  .footer .service {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .link {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+  .banner-1 h2,
+  p {
+    text-align: left;
+    font-size: 1.9em;
+  }
+  .banner-1 h2 {
+    line-height: 1.3em;
+  }
+  .banner-2 {
+    width: 100%;
+    height: 90%;
+  }
+  .banner-2 img {
+    padding-bottom: 0;
+    width: 75%;
+    height: 100%;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  .details .aside {
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+  }
+  .details .aside ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .details .aside ul li {
+    margin: 6px;
+    border: 1px solid #2e2d2d;
+    width: 200px;
+    height: 64px;
+  }
+  .details .aside ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .button {
+    display: inline-block;
+    width: 100px;
+  }
+}
