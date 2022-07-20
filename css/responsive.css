@@ -15,7 +15,7 @@
     margin-left: 10px;
     border-radius: 10px;
     height: auto;
-    width: 335px;
+    width: 345px;
   }
   .banner-1 {
     margin: 0;
@@ -23,7 +23,6 @@
     padding-bottom: 40px;
     text-align: center;
     width: 100%;
-    /* height: 50%; */
   }
   .banner-1 h2,
   p {
@@ -56,9 +55,8 @@
   .content {
     margin: 0;
     padding: 0;
-    width: 335px;
+    width: 345px;
     height: auto;
-    /* text-align: center; */
   }
   .content .image {
     padding-top: 20px;
@@ -72,7 +70,7 @@
   }
   .footer {
     padding-bottom: 25px;
-    width: 335px;
+    width: 345px;
     height: auto;
   }
   .footer h3 {
